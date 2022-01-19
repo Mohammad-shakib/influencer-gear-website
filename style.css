@@ -1,0 +1,781 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 30px;
+}
+.header-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+nav{
+    display: flex;
+}
+nav .header-title{
+    width: 50%;
+}
+nav .header-title a{
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+}
+nav .list-section{
+    width: 50%;
+}
+nav .list-section ul{
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+}
+nav .list-section ul li{
+    list-style-type: none;
+    
+}
+nav .list-section ul li a{
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: purple;
+}
+nav .list-section ul li a:hover{
+    background-color: gray;
+    color: white;
+}
+main{
+  padding-top: 50px;
+}
+.main-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bog-section{
+    padding-top: 30px;
+}
+.bog-section h1{
+    font-size: 35px;
+    color: purple;
+}
+.bog-section p{
+    text-align: justify;
+    color: purple;
+    padding-bottom: 20px;
+}
+.bog-section a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.images-section{
+    text-align: right;
+}
+.images-section img{
+    width: 70%;
+}
+.logo-section{
+    padding-top: 100px;
+}
+.logo-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.logo-container img{
+    width: 50%;
+    height: auto;
+}
+hr{
+    border: 2px solid green;
+    max-width: 80%;
+}
+.popular-collection{
+    padding-top: 100px;
+}
+.popular-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+.popular-title h2{
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+    padding-bottom: 50px;
+}
+.popular-all-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 50px;
+}
+.Flex-tripod{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Flex-tripod img{
+    width: 80%;
+    padding: 10px;
+}
+.Flex-tripod h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Flex-tripod h5{
+    margin-top: 0;
+    color: orange;
+}
+.microphone{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.microphone img{
+    width: 80%;
+    padding: 10px;
+}
+.microphone h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.microphone h5{
+    margin-top: 0;
+    color: orange;
+}
+
+.Airbuds{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Airbuds img{
+    width: 80%;
+    padding: 10px;
+}
+.Airbuds h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Airbuds h5{
+    color: orange;
+    margin-top: 0;
+}
+.Drone{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Drone img{
+    width: 80%;
+    padding: 10px;
+}
+.Drone h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Drone h5{
+    color: orange;
+    margin-top: 0;
+}
+.Light-setup{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green; 
+}
+.Light-setup img{
+    width: 80%;
+    padding: 10px;
+}
+.Light-setup h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Light-setup h5{
+    margin-top: 0;
+    color: orange;
+}
+.Photoshoot-set{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Photoshoot-set img{
+    width: 80%;
+    padding: 10px;
+}
+.Photoshoot-set h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Photoshoot-set h5{
+    margin-top: 0;
+    color: orange;
+}
+.Vlogging-camera{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Vlogging-camera img{
+    width: 80%;
+    padding: 10px;
+}
+.Vlogging-camera h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Vlogging-camera h5{
+    margin-top: 0;
+    color: orange;
+}
+.Green-screen{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.Green-screen img{
+    width: 80%;
+    padding: 10px;
+}
+.Green-screen h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.Green-screen h5{
+    margin-top: 0;
+    color: orange;
+}
+.camera-action{
+    width: 90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 8px 0 green;
+}
+.camera-action img{
+    width: 80%;
+    padding: 10px;
+}
+.camera-action h3,h4,p{
+    margin-top: 0;
+    color: white;
+}
+.camera-action h5{
+    margin-top: 0;
+    color: orange;
+}
+.seeMore-section{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.seeMore-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+.seeMore-container a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    display: flex;
+    justify-content: right;
+}
+.ourSupport-section{
+    padding-bottom: 50px;
+}
+.support-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.supportBlog-section{
+    width: 48%;
+    margin-right: 20px;
+}
+.supportBlog-section h2{
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+.supportBlog-section p{
+    color: purple;
+    text-align: justify;
+}
+.supporImages-section{
+    width: 48%;
+    justify-content: right;
+    display: flex;
+}
+.supporImages-section img{
+    width: 80%;
+}
+.join-now-section{
+    padding-bottom: 100px;
+}
+.join-now-container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.join-now-container a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid green;
+    color: white;
+    background-color: green;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer-container h2{
+    font-size: 20px;
+}
+.footer-container p{
+    font-size: 13px;
+}
+.footer-container a .fab{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+     /* header-section    */
+     .header-container{
+         height: auto;
+     }
+     nav{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+    nav .header-title a{
+        text-align: left;
+        font-size: 10px;
+    }
+    nav .list-section ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav .list-section ul li a{
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    main{
+        padding-top: 20px;
+      }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bog-section{
+        padding-bottom: 50px;
+    }
+    .bog-section h1{
+        font-size: 15px;
+        color: purple;
+    }
+    .bog-section a{
+        font-size: 15px;
+    }
+    .images-section{
+        text-align: center;
+    }
+    .images-section img{
+        width: 100%;
+    }
+    .popular-all-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .support-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .supportBlog-section {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .supportBlog-section h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .supporImages-section{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .supporImages-section img{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 281px) and (max-width: 480px){
+    .header-container{
+        height: auto;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+   nav .header-title a{
+       text-align: left;
+       font-size: 10px;
+   }
+   nav .list-section ul{
+       display: grid;
+       grid-template-rows: repeat(6,1fr);
+       justify-content: left;
+   }
+   nav .list-section ul li a{
+       font-size: 10px;
+       padding-right: 5px;
+   }
+   main{
+    padding-top: 20px;
+  }
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.bog-section{
+    padding-bottom: 50px;
+}
+.bog-section h1{
+    font-size: 15px;
+    color: purple;
+}
+.bog-section a{
+    font-size: 15px;
+}
+.images-section{
+    text-align: center;
+}
+.images-section img{
+    width: 100%;
+}
+.popular-all-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.support-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.supportBlog-section {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.supportBlog-section h2{
+    font-size: 18px;
+    text-align: center;
+}
+.supporImages-section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.supporImages-section img{
+    width: 80%;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 668px){
+    .header-container{
+        width: 95%;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    nav .header-title a{
+        text-align: left;
+        font-size: 10px;
+    }
+    nav .list-section ul{
+        display: grid;
+        grid-template-rows: repeat(6,1fr);
+        justify-content: left;
+    }
+    nav .list-section ul li a{
+        font-size: 10px;
+        padding-right: 5px;
+    }
+    main{
+        padding-top: 20px;
+      }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bog-section{
+        padding-bottom: 50px;
+    }
+    .bog-section h1{
+        font-size: 15px;
+        color: purple;
+    }
+    .bog-section a{
+        font-size: 15px;
+    }
+    .images-section{
+        text-align: center;
+    }
+    .images-section img{
+        width: 70%;
+    }
+    .popular-all-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .support-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .supportBlog-section {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .supportBlog-section h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .supporImages-section{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .supporImages-section img{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 669px) and (max-width: 992px){
+    .header-container{
+        width: 95%;
+    }
+    nav{
+        display: flex;
+    }
+    nav .header-title{
+        width: 40%;
+    }
+    nav .header-title a{
+       font-size: 15px;
+    }
+    nav .list-section{
+        width: 60%;
+    }
+    nav .list-section ul li a{
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bog-section{
+        padding-bottom: 50px;
+    }
+    .bog-section h1{
+        font-size: 25px;
+        color: purple;
+    }
+    .bog-section a{
+        font-size: 20px;
+    }
+    .images-section{
+        text-align: right;
+    }
+    .images-section img{
+        width: 70%;
+    }
+    .popular-all-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .support-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .supportBlog-section {
+        width: 100%;
+    }
+    .supportBlog-section h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .supporImages-section{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    .supporImages-section img{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    header{
+        padding-top: 30px;
+    }
+    .header-container{
+        width: 80%;
+        margin: auto;
+    }
+    nav{
+        display: flex;
+    }
+    nav .header-title{
+        width: 50%;
+    }
+    nav .header-title a{
+        text-decoration: none;
+        font-size: 20px;
+        color: purple;
+    }
+    nav .list-section{
+        width: 50%;
+    }
+    nav .list-section ul{
+        display: flex;
+        justify-content: right;
+        margin-top: 0;
+    }
+    nav .list-section ul li{
+        list-style-type: none;
+        
+    }
+    nav .list-section ul li a{
+        padding-right: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        color: purple;
+    }
+    nav .list-section ul li a:hover{
+        background-color: gray;
+        color: white;
+    }
+    main{
+        padding-top: 50px;
+      }
+      .main-container{
+          width: 80%;
+          margin: auto;
+          max-width: 1200px;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+      }
+      .bog-section{
+          padding-top: 30px;
+      }
+      .bog-section h1{
+          font-size: 35px;
+          color: purple;
+      }
+      .bog-section p{
+          text-align: justify;
+          color: purple;
+          padding-bottom: 20px;
+      }
+      .bog-section a{
+          text-decoration: none;
+          font-size: 20px;
+          background-color: green;
+          color: white;
+          border: 2px solid green;
+          border-radius: 20px;
+          padding: 10px 10px;
+      }
+      .images-section{
+          text-align: right;
+      }
+      .images-section img{
+          width: 70%;
+      }
+      
+}
